@@ -65,6 +65,10 @@ public class LevelManager : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
+        if (Input.GetKeyDown(KeyCode.Q)) {
+            Application.Quit();
+        }
+
         if (IsOver)
         {
             return;
@@ -233,8 +237,9 @@ public class LevelManager : MonoBehaviour
     {
         IsOver = true;
 
-        _statusInfo.text = isWin ? "You Win!" : "You Lose!";
+        _statusInfo.text = isWin ? "YOU WIN!" : "YOU LOSE!";
         _panel.gameObject.SetActive(true);
+        AudioPlayer.Instance.PlaySFX("win-sfx");
     }
 
     // Untuk menampilkan garis penghubung dalam window Scene

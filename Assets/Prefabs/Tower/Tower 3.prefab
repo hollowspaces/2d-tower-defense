@@ -12,6 +12,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tower 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: _bulletSplashRadius
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: _shootDistance
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: _towerPlace
+      value: 
+      objectReference: {fileID: 9119578646448955644}
+    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: _towerHead
+      value: 
+      objectReference: {fileID: 5699011268902577240}
+    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: _bulletPrefab
+      value: 
+      objectReference: {fileID: 8861993363702148778, guid: 9426f3d107619654aaf8ee773c7f9e43,
+        type: 3}
+    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: _shootPower
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1128855225528622647, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0a070fafe031f524399b2185239bb262,
+        type: 3}
     - target: {fileID: 8278226203323512766, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -67,38 +104,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
-        type: 3}
-      propertyPath: _bulletSplashRadius
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
-        type: 3}
-      propertyPath: _shootDistance
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
-        type: 3}
-      propertyPath: _towerPlace
-      value: 
-      objectReference: {fileID: 9119578646448955644}
-    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
-        type: 3}
-      propertyPath: _towerHead
-      value: 
-      objectReference: {fileID: 5699011268902577240}
-    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
-        type: 3}
-      propertyPath: _bulletPrefab
-      value: 
-      objectReference: {fileID: 8861993363702148778, guid: 9426f3d107619654aaf8ee773c7f9e43,
-        type: 3}
-    - target: {fileID: 1128855225528622647, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0a070fafe031f524399b2185239bb262,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48c67cc245a08a14481d66bcc9bbf4e2, type: 3}
 --- !u!212 &9119578646448955644 stripped

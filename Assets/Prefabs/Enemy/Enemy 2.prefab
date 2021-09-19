@@ -38,6 +38,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6083522126371987366, guid: b52eda699bbe2ee40b3deda97099bc52,
+        type: 3}
+      propertyPath: _maxHealth
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083522126371987366, guid: b52eda699bbe2ee40b3deda97099bc52,
+        type: 3}
+      propertyPath: _healthBar
+      value: 
+      objectReference: {fileID: 3178880287669588387}
+    - target: {fileID: 6083522126371987366, guid: b52eda699bbe2ee40b3deda97099bc52,
+        type: 3}
+      propertyPath: _healthFill
+      value: 
+      objectReference: {fileID: 6031183211191366073}
     - target: {fileID: 8309182045773345628, guid: b52eda699bbe2ee40b3deda97099bc52,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -104,6 +119,18 @@ PrefabInstance:
 --- !u!1 &3074533204345586369 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5701401292033589068, guid: b52eda699bbe2ee40b3deda97099bc52,
+    type: 3}
+  m_PrefabInstance: {fileID: 7328937607343439245}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &3178880287669588387 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5307557217006611502, guid: b52eda699bbe2ee40b3deda97099bc52,
+    type: 3}
+  m_PrefabInstance: {fileID: 7328937607343439245}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &6031183211191366073 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3892953690157911092, guid: b52eda699bbe2ee40b3deda97099bc52,
     type: 3}
   m_PrefabInstance: {fileID: 7328937607343439245}
   m_PrefabAsset: {fileID: 0}

@@ -28,6 +28,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6083522126371987366, guid: b52eda699bbe2ee40b3deda97099bc52,
+        type: 3}
+      propertyPath: _maxHealth
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083522126371987366, guid: b52eda699bbe2ee40b3deda97099bc52,
+        type: 3}
+      propertyPath: _moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083522126371987366, guid: b52eda699bbe2ee40b3deda97099bc52,
+        type: 3}
+      propertyPath: _healthBar
+      value: 
+      objectReference: {fileID: 7414554025652178899}
+    - target: {fileID: 6083522126371987366, guid: b52eda699bbe2ee40b3deda97099bc52,
+        type: 3}
+      propertyPath: _healthFill
+      value: 
+      objectReference: {fileID: 1822689494888165321}
     - target: {fileID: 8309182045773345628, guid: b52eda699bbe2ee40b3deda97099bc52,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -83,21 +103,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6083522126371987366, guid: b52eda699bbe2ee40b3deda97099bc52,
-        type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6083522126371987366, guid: b52eda699bbe2ee40b3deda97099bc52,
-        type: 3}
-      propertyPath: _moveSpeed
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b52eda699bbe2ee40b3deda97099bc52, type: 3}
 --- !u!1 &6940751768436399281 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5701401292033589068, guid: b52eda699bbe2ee40b3deda97099bc52,
+    type: 3}
+  m_PrefabInstance: {fileID: 3408647335587980285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &7414554025652178899 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5307557217006611502, guid: b52eda699bbe2ee40b3deda97099bc52,
+    type: 3}
+  m_PrefabInstance: {fileID: 3408647335587980285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1822689494888165321 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3892953690157911092, guid: b52eda699bbe2ee40b3deda97099bc52,
     type: 3}
   m_PrefabInstance: {fileID: 3408647335587980285}
   m_PrefabAsset: {fileID: 0}

@@ -12,6 +12,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tower 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: _shootPower
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: _shootDelay
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: _towerPlace
+      value: 
+      objectReference: {fileID: 6250163621823104660}
+    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: _towerHead
+      value: 
+      objectReference: {fileID: 7432274505640493616}
+    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
+        type: 3}
+      propertyPath: _bulletPrefab
+      value: 
+      objectReference: {fileID: 6831188274237323929, guid: 9e6ba72ee9483db48a3f61d329192d24,
+        type: 3}
     - target: {fileID: 8278226203323512766, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -67,32 +93,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
-        type: 3}
-      propertyPath: _shootPower
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
-        type: 3}
-      propertyPath: _shootDelay
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
-        type: 3}
-      propertyPath: _towerPlace
-      value: 
-      objectReference: {fileID: 6250163621823104660}
-    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
-        type: 3}
-      propertyPath: _towerHead
-      value: 
-      objectReference: {fileID: 7432274505640493616}
-    - target: {fileID: 6096882647107823389, guid: 48c67cc245a08a14481d66bcc9bbf4e2,
-        type: 3}
-      propertyPath: _bulletPrefab
-      value: 
-      objectReference: {fileID: 6831188274237323929, guid: 9e6ba72ee9483db48a3f61d329192d24,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48c67cc245a08a14481d66bcc9bbf4e2, type: 3}
 --- !u!212 &6250163621823104660 stripped
